@@ -29,6 +29,13 @@ class Song
     end
   end
 
+def self.genre_count
+  count = 0 
+  hash[@genre] ||= { }
+  hash[@genre] = "count"
+  count += 1 
+end
+  
 
   
 end
