@@ -22,7 +22,7 @@ class Song
   end
 
   def self.artists 
-    @@artists.each do |artist|
+    @@artists.collect do |artist|
       artists.include?(artist)
       artist
     end
