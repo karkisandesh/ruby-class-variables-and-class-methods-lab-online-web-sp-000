@@ -26,8 +26,10 @@ class Song
   end
 
 def self.genre_count
+  count = 0 
   genre_count[@@genres] ||= {} 
-  hash[@@genres] << @@count
+  genre_count[@@genres] << count
+  count +=1
 end
   
   def self.artist_count 
