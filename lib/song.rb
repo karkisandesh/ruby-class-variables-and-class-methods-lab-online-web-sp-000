@@ -36,7 +36,7 @@ end
   
   def self.artist_count 
     hash[@@artists] ||= { }
-      hash[@@artists] << "@@count"
+      hash[@@artists] << "#{@@count}"
   end
 
   
