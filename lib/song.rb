@@ -30,7 +30,7 @@ class Song
   end
 
 def self.genre_count
-  hash[@@genres] ||= { }
+  hash[@@genres] ||= {@@count}
   hash[@@genres] = "@@count"
 end
   
