@@ -35,7 +35,7 @@ def self.genre_count
 end
   
   def self.artist_count 
-    hash[@@artists] ||= { }
+    hash[@@artists.to_sym] ||= { }
       hash[@@artists] << @@count
   end
 
